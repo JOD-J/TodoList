@@ -1,0 +1,37 @@
+.header {
+	width: 100%;
+    padding: 15px;
+	background-color: steelblue;
+	border-radius: 0 0 10px 10px;
+}
+.header__wrapper {
+}
+.header__titile {
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: left;
+}
+.header__form-todo {
+}
+.header-input {
+	width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-indent: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px 25px 25px 5px;
+}
+.header-input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+.header-button {
+	width: 50px;
+    height: 50px;
+    background: url("../img/plus.png") no-repeat center/cover;
+    position: absolute;
+    top: 63px;
+    right: 15px;
+}
